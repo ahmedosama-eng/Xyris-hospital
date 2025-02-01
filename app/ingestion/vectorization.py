@@ -8,7 +8,7 @@ import openai
 
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
-#openai.api_key = os.environ['OPENAI_API_KEY']
+
 
 
 db_path = r'F:\xyris test\xyris_HIS_test\app\data\output_db\hospital.db'
