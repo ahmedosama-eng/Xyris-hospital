@@ -1,0 +1,61 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.dll
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Compiled files
+*.o
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Docker & CI/CD
+docker-compose.override.yml
+*.pid
+celerybeat-schedule
+
+# OS-specific
+.DS_Store
+Thumbs.db
